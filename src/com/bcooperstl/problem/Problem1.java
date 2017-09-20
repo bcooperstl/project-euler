@@ -7,7 +7,7 @@ public class Problem1 {
 			"Find the sum of all the multiples of 3 or 5 below 1000.";
 	
 	public static void main(String[] args) {
-		System.out.print(PROBLEM_DESCRIPTION);
+		System.out.println(PROBLEM_DESCRIPTION);
 		
 		Integer total = 0;
 		for (Integer i=0; i<1000; i++) {
